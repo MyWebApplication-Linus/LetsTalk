@@ -8,6 +8,11 @@ app.get('/', (req, res) => {
     res.send('API Running')
 });
 
+app.use(express.json({
+    extended: false
+}));
+
+
 //Define Routes
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
