@@ -1,3 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://okoth:nairobi@cluster0-icn5n.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority"
+
+    "mongoURI": "mongodb+srv://okoth:nairobi@cluster0-icn5n.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority",
+
+    "jwtSecret": "mysecrettoken"
 }
